@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -16,18 +16,18 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="/"
-                rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                Get Started
-              </a>
+              <Link href="/">
+                <a
+                  className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+                  Get Started
+                </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
-            <img src="/hero.svg" alt="hero" />
+            <Image src="/hero.svg" width="400" height="400" alt="hero" />
           </div>
         </div>
       </Container>
