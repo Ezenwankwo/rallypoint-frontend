@@ -19,8 +19,8 @@ export default function Testimonials() {
 
             <Avatar
               image={userOneImg}
-              name="Boluwatito Awe"
-              title="Founder at Rally Point Consult"
+              name="Sarah Steiner"
+              title="VP Sales at Google"
             />
           </div>
         </div>
