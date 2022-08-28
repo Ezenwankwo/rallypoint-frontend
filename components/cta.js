@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Container from "./container";
 
 export default function Cta() {
@@ -14,11 +15,12 @@ export default function Cta() {
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
-          <a
-            href="/"
-            className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
-            Get Started
-          </a>
+          <Link href="/">
+            <a
+              className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
+              Get Started
+            </a>
+          </Link>
         </div>
       </div>
     </Container>
