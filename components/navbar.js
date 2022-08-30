@@ -30,7 +30,7 @@ export default function Navbar() {
                         className="w-8"
                       />
                     </span>
-                    <span>Rally Point</span>
+                    <span>RallyPoint</span>
                   </a>
                 </Link>
 
