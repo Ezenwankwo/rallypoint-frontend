@@ -19,7 +19,7 @@ export default function Hero() {
               <Link href="/">
                 <a
                   className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                  Get Started
+                  Get in Touch
                 </a>
               </Link>
             </div>
