@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between py-8 px-4 mx-auto lg:justify-between xl:px-0">
+      <nav className="container relative flex flex-wrap items-center justify-between py-8 px-4 mx-auto lg:justify-between">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
