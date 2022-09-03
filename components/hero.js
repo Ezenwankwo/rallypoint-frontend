@@ -16,7 +16,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <Link href="/">
+              <Link href="/contact">
                 <a
                   className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
                   Get in Touch

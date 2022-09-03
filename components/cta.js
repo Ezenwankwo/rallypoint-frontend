@@ -10,12 +10,9 @@ export default function Cta() {
           <h2 className="text-2xl font-medium lg:text-3xl">
             Ready to create your strategy?
           </h2>
-          <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Do not let your visitors see a poor landing.
-          </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
-          <Link href="/">
+          <Link href="/contact">
             <a
               className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
               Get in Touch
