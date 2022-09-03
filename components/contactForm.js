@@ -70,7 +70,7 @@ export default function ContactForm() {
                         </div>
                     </div>
                     <div className="grid grid-cols-6 gap-6">
-                        <div class="col-span-6 md:col-span-2">
+                        <div className="col-span-6 md:col-span-2">
                             <label htmlFor="about" className="block font-medium text-gray-700">Message</label>
                             <div className="mt-1">
                                 <textarea
