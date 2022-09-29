@@ -9,7 +9,6 @@ import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
-import PopupWidget from "../components/popupWidget";
 
 //import dynamic from "next/dynamic";
 
@@ -43,7 +42,7 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
-        title="Here's what our customers said">
+        title="What our customers said">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
       </SectionTitle>
@@ -55,7 +54,6 @@ export default function Home() {
       <Faq />
       <Cta />
       <Footer />
-      <PopupWidget />
     </>
   );
 }

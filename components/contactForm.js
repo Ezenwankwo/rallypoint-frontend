@@ -92,7 +92,7 @@ export default function ContactForm() {
                             </div>
                         </div>
                     </div>
-                    <button type="submit" className="px-6 py-2 mt-3 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">Send</button>
+                    <button type="submit" className="px-6 py-2 mt-3 text-lg font-medium text-center text-white bg-purple-900 rounded-md ">Send</button>
                 </form>
             </div>
         </Container>

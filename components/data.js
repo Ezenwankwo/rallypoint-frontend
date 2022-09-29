@@ -11,23 +11,23 @@ import {
   import benefitTwoImg from "../public/img/benefit-two.svg";
   
   const benefitOne = {
-    title: "Why your startup needs a communication strategy",
-    desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+    title: "Why you need us",
+    desc: "Startup founders are unaware that integrated communications strategy is critical to the growth of their company. Those who know this lack the skill to develop a communications strategy to achieve their goals. Most startups will need:",
     image: benefitOneImg,
     bullets: [
       {
-        title: "Understand your customers",
-        desc: "Then explain the first point breifly in one or two lines.",
+        title: "Customer acquisition/fostering",
+        desc: "Identify, acquire and grow customers.",
         icon: <EmojiHappyIcon />,
       },
       {
-        title: "Improve acquisition",
-        desc: "Here you can add the next benefit point.",
+        title: "Public relations and branding",
+        desc: "Build trust and standout in the market.",
         icon: <ChartSquareBarIcon />,
       },
       {
-        title: "Drive customer retention",
-        desc: "This will be your last bullet point in this section.",
+        title: "Stakeholders management",
+        desc: "Identify and manage relevant stakeholders.",
         icon: <CursorClickIcon />,
       },
     ],

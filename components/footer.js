@@ -18,7 +18,7 @@ export default function Footer() {
             <div>
               {" "}
               <Link href="/">
-                <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                <a className="flex items-center space-x-2 text-2xl font-medium text-purple-900 dark:text-gray-100">
                   <span>
                     <Image
                       src="/img/logo.png"
@@ -34,7 +34,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            We help startups and small businesses build a successful 
+            We help startups and small businesses build an integrated 
             communication strategy that will help them grow.
             </div>
           </div>

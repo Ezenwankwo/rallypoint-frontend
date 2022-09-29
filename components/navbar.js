@@ -19,17 +19,17 @@ export default function Navbar() {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                  <a className="flex items-center space-x-2 text-2xl font-bold text-purple-900 dark:text-gray-100">
                     <span>
                       <Image
                         src="/img/logo.png"
                         alt="N"
-                        width="32"
-                        height="32"
+                        width="48"
+                        height="48"
                         className="w-8"
                       />
                     </span>
-                    <span>RallyPoint</span>
+                    <span>RALLY POINT</span>
                   </a>
                 </Link>
 
@@ -66,8 +66,8 @@ export default function Navbar() {
                       </Link>
                     ))}
                     <Link href="/contact">
-                      <a className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                        Get in Touch
+                      <a className="w-full px-6 py-2 mt-3 text-center text-white bg-purple-900 rounded-md lg:ml-5">
+                        Get Started
                       </a>
                     </Link>
                   </>
@@ -94,8 +94,8 @@ export default function Navbar() {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/contact">
-            <a className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get in Touch
+            <a className="px-6 py-2 text-white bg-purple-900 rounded-md md:ml-5">
+              Get Started
             </a>
           </Link>
 
