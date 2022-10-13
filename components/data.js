@@ -12,7 +12,7 @@ import {
   
   const benefitOne = {
     title: "Why you need us",
-    desc: "Startup founders are unaware that integrated communications strategy is critical to the growth of their company. Those who know this lack the skill to develop a communications strategy to achieve their goals. Most startups will need:",
+    desc: "Business owners are unaware that integrated communications strategy is critical to the growth of their company. Those who know this lack the skill to develop a communications strategy to achieve their goals. Most businesses will need:",
     image: benefitOneImg,
     bullets: [
       {
@@ -35,7 +35,7 @@ import {
   
   const benefitTwo = {
     title: "How we help you",
-    desc: "Our team is a blend of communications experts and startup founders. We have unique insights into the challenges that startups face, expecially about storytelling and communication.",
+    desc: "Our team is a blend of communications experts and business owners. We have unique insights into the challenges that businesses face, expecially about storytelling and communication.",
     image: benefitTwoImg,
     bullets: [
       {

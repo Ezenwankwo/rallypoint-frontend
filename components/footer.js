@@ -28,13 +28,13 @@ export default function Footer() {
                       className="w-8"
                     />
                   </span>
-                  <span>RallyPoint</span>
+                  <span>Rally Point</span>
                 </a>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            We help startups and small businesses build an integrated 
+            We help businesses build an integrated 
             communication strategy that will help them grow.
             </div>
           </div>
@@ -65,28 +65,28 @@ export default function Footer() {
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="/"
+                href="https://twitter.com/Rally_Point_/"
                 target="_blank"
                 rel="noreferrer">
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a>
               <a
-                href="https://facebook.com/web3templates"
+                href="https://web.facebook.com/RallyPointConsult/"
                 target="_blank"
                 rel="noreferrer">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
               <a
-                href="https://instagram.com/web3templates"
+                href="https://www.instagram.com/rallypointconsult/"
                 target="_blank"
                 rel="noreferrer">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/company/rallypointconsult/"
                 target="_blank"
                 rel="noreferrer">
                 <span className="sr-only">Linkedin</span>
