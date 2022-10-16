@@ -26,10 +26,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Rally Point Consult - Communications Strategy for Businesses</title>
+        <title>Rally Point Consult - Communications Strategy for Startups and Businesses</title>
         <meta
           name="description"
-          content="We develop communications strategy for businesses."
+          content="We develop communications strategy for startups and businesses."
         />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

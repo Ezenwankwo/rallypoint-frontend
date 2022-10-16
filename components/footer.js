@@ -34,7 +34,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            We help businesses build an integrated 
+            We help startups and businesses build an integrated 
             communication strategy that will help them grow.
             </div>
           </div>
