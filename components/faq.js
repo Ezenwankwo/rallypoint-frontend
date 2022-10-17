@@ -35,21 +35,25 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
+    question: "What is a communications strategy?",
     answer: "Yes, this template is completely free to use.",
   },
   {
-    question: "Can I use it in a commercial project?",
+    question: "Does my business need a communications strategy?",
     answer: "Yes, this you can.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Why do I need a communications strategy?",
     answer:
       "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "How do I get started on developing my personalised communications strategy?",
     answer:
       "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+  },
+  {
+    question: "What do you charge for developing a communications strategy?",
+    answer: "Yes, this you can.",
   },
 ];

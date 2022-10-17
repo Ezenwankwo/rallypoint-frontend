@@ -5,8 +5,8 @@ import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
   const navigation = [
-    "Process",
     "Contact",
+    "Faqs",
     "Blog",
   ];
 

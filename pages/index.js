@@ -48,8 +48,8 @@ export default function Home() {
       </SectionTitle>
       <Testimonials />
       <SectionTitle title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        Here are common questions asked by our customers. 
+        If you have any other questions, please feel free to contact us.
       </SectionTitle>
       <Faq />
       <Cta />
