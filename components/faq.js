@@ -36,24 +36,22 @@ export default function Faq() {
 const faqdata = [
   {
     question: "What is a communications strategy?",
-    answer: "Yes, this template is completely free to use.",
+    answer: "A communications strategy is a plan for how you will communicate with your audience. It is a document that outlines your goals, your audience, and the tactics you will use to reach them. It is a living document that you will update as you learn more about your audience and your goals.",
   },
   {
     question: "Does my business need a communications strategy?",
-    answer: "Yes, this you can.",
+    answer: "Yes, every business needs a communications strategy.",
   },
   {
     question: "Why do I need a communications strategy?",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    answer: "A communications strategy will help you to understand your audience and how to reach them. It will help you to understand your goals and how to achieve them. It will help you to understand your brand and how to communicate it.",
   },
   {
     question: "How do I get started on developing my personalised communications strategy?",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    answer: "Contact us by clicking the get started button below and we will get in touch with you to discuss your needs.",
   },
   {
     question: "What do you charge for developing a communications strategy?",
-    answer: "Yes, this you can.",
+    answer: "We charge a flat fee of $200 for developing a communications strategy. This includes a 1 hour consultation, a 1 hour strategy session, and a 1 hour review session. We will also provide you with a template for your communications strategy.",
   },
 ];
