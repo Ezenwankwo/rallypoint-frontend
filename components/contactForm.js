@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Container from "./container";
+import { toast } from "react-toastify"
 
 export default function ContactForm() {
     const [name, setName] = useState("");
@@ -11,6 +12,28 @@ export default function ContactForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log({ name, company, email, website, message });
+        const data = { name, company, email, website, message };
+        fetch("/api/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json, text/plain, */*",
+            },
+            body: JSON.stringify(data),
+        }).then((res) => {
+            console.log('Response received');
+            if (res.status === 200) {
+                console.log('Response succeeded!');
+                setName("");
+                setCompany("");
+                setEmail("");
+                setWebsite("");
+                setMessage("");
+                toast.success("Message sent successfully! We will get in touch");
+            } else {
+                toast.error("Message failed to send, try again or email us at consultrallypoint@gmail.com.");
+            }
+        });
     };
 
     return (
@@ -85,7 +108,8 @@ export default function ContactForm() {
                                     name="message"
                                     rows="3"
                                     className="w-full px-3 py-2 placeholder-gray-400 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring"
-                                    placeholder="write an optional message"
+                                    required
+                                    placeholder="write your message"
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                 />

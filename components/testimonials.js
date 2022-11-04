@@ -13,22 +13,24 @@ export default function Testimonials() {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-10 rounded-2xl py-10 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              Our business approach to reaching its target market has 
+              improved exponentially since we engaged the services of Rally Point. 
+              And, we are able to do a lot more with limited resources.
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Olawale Bello"
+              title="Creative Director at Myndz Designs"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-10 rounded-2xl py-10 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              The communications strategy from Rally Point helped us work smarter. 
+              With it, we started seeing results for our efforts. We were able to implement 
+              the strategy on a smaller budget and achieve greater results with less effort.
             </p>
 
             <Avatar
@@ -41,14 +43,15 @@ export default function Testimonials() {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-10 rounded-2xl py-10 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I have seen. I
-              would use this for anything.
+              Rally Point’s process was seamless, yet it resulted in a detailed 
+              communications strategy that grew my business significantly. 
+              I would not hesitate to recommend Rally Point to businesses that plan to scale up.
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Isreal Akande"
+              title="Executive Director at Xtreme Information Technology"
             />
           </div>
         </div>

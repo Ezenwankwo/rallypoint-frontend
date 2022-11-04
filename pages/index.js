@@ -43,8 +43,7 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         title="What our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Our custmers are our best advocates. Here's what they have to say about us.
       </SectionTitle>
       <Testimonials />
       <SectionTitle title="Frequently Asked Questions">

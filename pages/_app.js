@@ -1,5 +1,7 @@
 import { ThemeProvider } from "next-themes";
+import { ToastContainer } from "react-toastify";
 import Script from 'next/script';
+import "react-toastify/dist/ReactToastify.css"
 import "../css/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
@@ -19,6 +21,18 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
       <Component {...pageProps} />
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </ThemeProvider>
   );
 }
