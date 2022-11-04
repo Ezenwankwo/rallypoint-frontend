@@ -43,7 +43,7 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         title="What our customers said">
-        Our custmers are our best advocates. Here's what they have to say about us.
+        Our customers are our best advocates. Here is what they have to say about us.
       </SectionTitle>
       <Testimonials />
       <SectionTitle title="Frequently Asked Questions">
